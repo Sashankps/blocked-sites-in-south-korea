@@ -1,0 +1,23 @@
+# Excluded from reviewed/porn-blocklist.txt
+# Source domains remain unchanged in list.txt and kr.list.
+
+10bet.com
+123videos.tv
+1xbet.cm
+1xbet.co.ke
+bamtoki.com
+bet365.com
+betmasterworld.com
+df-bet.com
+dlsite.com
+iqoption.com
+linktv.pro
+mytving.com
+otorrent4.biz
+otorrento.com
+otorrentv.com
+torrentgl.net
+torrentleen.com
+torrentleex.com
+wawatv.net
+yaddal.tv

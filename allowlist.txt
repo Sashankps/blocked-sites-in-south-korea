@@ -1,0 +1,33 @@
+# Domains excluded from the porn blocklist after offline review.
+#
+# These are not removed from the source lists. The review script subtracts this
+# file when producing reviewed/porn-blocklist.txt.
+#
+# This review intentionally does not open or search the listed sites.
+
+# Gambling / betting, not porn.
+10bet.com
+1xbet.cm
+1xbet.co.ke
+bet365.com
+betmasterworld.com
+df-bet.com
+
+# Trading / financial, not porn.
+iqoption.com
+
+# General or mixed-purpose media/marketplace/torrent/webtoon sites.
+# Some may host mature content, but they are not porn-specific domains.
+123videos.tv
+bamtoki.com
+dlsite.com
+linktv.pro
+mytving.com
+otorrent4.biz
+otorrento.com
+otorrentv.com
+torrentgl.net
+torrentleen.com
+torrentleex.com
+wawatv.net
+yaddal.tv
