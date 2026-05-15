@@ -18,21 +18,22 @@ reduce explicit search-result exposure across browsers.
 
 3. Strict DNS mode:
    - Keep the local hosts block.
-   - Set macOS network services to CleanBrowsing Family DNS:
-     `185.228.168.168`, `185.228.169.168`, `2a0d:2a00:1::`,
-     `2a0d:2a00:2::`.
+   - Set macOS network services to Cloudflare Family DNS:
+     `1.1.1.3`, `1.0.0.3`, `2606:4700:4700::1113`,
+     `2606:4700:4700::1003`.
    - Save previous DNS settings before changing them.
    - Restore the saved DNS settings with `strict-disable`.
 
 ## Why DNS Filtering Is The Best Next Step
 
 DNS filtering works before the browser connects to the destination, so it applies
-across browsers and apps that use the system resolver. CleanBrowsing Family DNS
-blocks adult, pornographic, explicit, proxy/VPN bypass, mixed-content, malicious,
-and phishing domains, and it enforces SafeSearch on Google, Bing, and YouTube.
+across browsers and apps that use the system resolver. Cloudflare Family DNS
+blocks malware and adult content without blocking general-purpose social/forum
+domains like Reddit.
 
 Official references:
 
+- Cloudflare 1.1.1.1 for Families: https://one.one.one.one/family/
 - CleanBrowsing Family Filter: https://cleanbrowsing.org/filters/
 - Google SafeSearch VIP: https://support.google.com/websearch/answer/186669
 - Bing strict SafeSearch DNS mapping:
@@ -57,8 +58,7 @@ creates privacy/security risk.
 Use layers:
 
 1. `sudo ./blockctl.sh strict-enable`
-2. Disable browser DNS-over-HTTPS or configure it to use CleanBrowsing Family
-   DoH.
+2. Disable browser DNS-over-HTTPS or configure it to use Cloudflare Family DoH.
 3. Turn on macOS Screen Time's `Limit Adult Websites` as a second local layer.
 4. Disable VPNs, iCloud Private Relay, and proxy extensions while relying on the
    block.

@@ -40,3 +40,12 @@ Mixed adult-capable domains are intentionally conservative: if a domain is meani
 - `torrentleex.com`
 - `wawatv.net`
 - `yaddal.tv`
+
+## Allowlist Entries Not Present In Sources
+
+- `np.reddit.com`
+- `old.reddit.com`
+- `redd.it`
+- `reddit.com`
+- `redditmedia.com`
+- `redditstatic.com`

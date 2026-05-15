@@ -9,10 +9,10 @@ MARKER_END="# END porn-site-guard"
 STATE_DIR="/Library/Application Support/porn-site-guard"
 DNS_STATE_FILE="$STATE_DIR/dns-state.tsv"
 STRICT_DNS_SERVERS=(
-  185.228.168.168
-  185.228.169.168
-  2a0d:2a00:1::
-  2a0d:2a00:2::
+  1.1.1.3
+  1.0.0.3
+  2606:4700:4700::1113
+  2606:4700:4700::1003
 )
 
 usage() {

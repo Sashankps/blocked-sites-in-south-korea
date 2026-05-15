@@ -31,3 +31,11 @@ torrentleen.com
 torrentleex.com
 wawatv.net
 yaddal.tv
+
+# General-purpose social/forum domains. Keep Reddit accessible.
+reddit.com
+old.reddit.com
+np.reddit.com
+redd.it
+redditmedia.com
+redditstatic.com

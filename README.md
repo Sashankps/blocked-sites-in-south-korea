@@ -38,10 +38,9 @@ is not filtered.
 sudo ./blockctl.sh strict-enable
 ```
 
-Strict mode combines the local `/etc/hosts` block with CleanBrowsing Family DNS
-on every macOS network service. CleanBrowsing Family DNS blocks adult/explicit
-domains, proxy/VPN bypass domains, mixed-content sites, malware/phishing, and
-forces SafeSearch on major search providers.
+Strict mode combines the local `/etc/hosts` block with Cloudflare Family DNS on
+every macOS network service. Cloudflare Family DNS blocks malware and adult
+content while keeping general-purpose sites such as Reddit resolvable.
 
 The first strict-mode enable saves the previous DNS settings to:
 
